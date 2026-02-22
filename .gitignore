@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+faiss_index/
+*.pdf
+.streamlit/secrets.toml

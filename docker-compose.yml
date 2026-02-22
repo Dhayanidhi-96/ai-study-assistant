@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  study-assistant:
+    build: .
+    ports:
+      - "7860:7860"
+    env_file:
+      - .env
+    volumes:
+      - ./:/app
+    restart: unless-stopped
