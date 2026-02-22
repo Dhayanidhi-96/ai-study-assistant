@@ -1,3 +1,12 @@
+---
+title: AI Study Assistant
+emoji: 📚
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_file: app.py
+pinned: false
+---
 # 📚 AI Study Assistant
 
 > Chat with any PDF using RAG + LLaMA 3.1 — 100% free to run.
